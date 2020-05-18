@@ -186,11 +186,11 @@
             },
             "properties": {
                 "name": "[variables('funcHhostingPlanName')]",
-                "computeMode": "Dynamic"
+                "computeMode": "Shared"
             },
             "sku": {
-                "Tier": "Dynamic",
-                "Name": "Y1"
+                "Tier": "Shared",
+                "Name": "D1"
             }
         },
         {
